@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "lib": [
+      "ES2023",
+      "DOM"
+    ],
+    "types": [
+      "node"
+    ],
+    "noUncheckedIndexedAccess": false
+  },
+  "files": [
+    "src/backend/api/handler.ts",
+    "src/backend/lib/seo.ts",
+    "scripts/seed.ts",
+    "scripts/create-admin.ts",
+    "tests/backend.test.ts",
+    "tests/leads-uploads.test.ts"
+  ]
+}

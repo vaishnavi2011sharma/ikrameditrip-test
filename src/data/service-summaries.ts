@@ -1,0 +1,20 @@
+/** Department copy carried over from the original services page. NOT clinically reviewed by the client yet. */
+export const serviceSummaries: Record<string, { summary: string; icon: string }> = {
+  "Cardiology": { summary: "Angioplasty, bypass surgery, valve replacement, pacemakers and comprehensive cardiac care at leading heart institutes.", icon: "HeartPulse" },
+  "Orthopedic & Joint Replacement": { summary: "Knee, hip and shoulder replacements, arthroscopy, sports injury repair and spine-related orthopedic procedures.", icon: "Bone" },
+  "Neurology": { summary: "Diagnosis and management of epilepsy, stroke, movement disorders, headaches and neurodegenerative conditions.", icon: "Brain" },
+  "Haemato Oncology": { summary: "Blood cancer treatment, bone marrow transplant, lymphoma and leukaemia care at accredited cancer centres.", icon: "Ribbon" },
+  "Oncology": { summary: "Medical, surgical and radiation oncology for solid tumours with multidisciplinary tumour boards.", icon: "Activity" },
+  "Spine & Scoliosis Surgery": { summary: "Minimally invasive spine surgery, deformity correction, disc replacement and scoliosis management.", icon: "Stethoscope" },
+  "Pediatric Cardiac Care": { summary: "Congenital heart defect repairs, pediatric cardiac surgery and neonatal cardiology support.", icon: "Baby" },
+  "Ophthalmology": { summary: "Cataract, LASIK, glaucoma, retina and corneal treatments using advanced eye-care technology.", icon: "Eye" },
+  "Urology & Kidney Transplant": { summary: "Kidney transplants, laparoscopic urology, prostate care and stone management.", icon: "Activity" },
+  "Liver Transplant, GI & HPB Surgery": { summary: "Liver transplants, hepatobiliary surgery and complex gastrointestinal procedures.", icon: "Scissors" },
+  "Cardio Thoracic & Vascular Surgery": { summary: "Thoracic, aortic and vascular surgeries including bypass and aneurysm repair.", icon: "HeartPulse" },
+  "ENT & Cochlear Implant": { summary: "Ear, nose and throat surgeries, hearing restoration and cochlear implant programmes.", icon: "Ear" },
+  "Dentistry": { summary: "Cosmetic dentistry, implants, oral surgery and full-mouth rehabilitation.", icon: "Smile" },
+  "IVF & Reproductive Medicine": { summary: "Fertility assessments, IVF, ICSI, egg freezing and end-to-end reproductive care.", icon: "Syringe" },
+  "Obstetrics & Gynaecology": { summary: "High-risk pregnancy care, minimally invasive gynaecology and women\u2019s wellness services.", icon: "Users" },
+  "Neurointerventional Surgery": { summary: "Minimally invasive brain and spine procedures including aneurysm coiling and embolisation.", icon: "Microscope" },
+  "Neurosurgery": { summary: "Brain and spine tumour surgery, trauma care, vascular neurosurgery and functional neurosurgery.", icon: "Brain" },
+};
